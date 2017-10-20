@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.supervise.dao.CourseRecordMapper" >
+  <resultMap id="BaseResultMap" type="com.supervise.model.CourseRecord" >
+    <result column="id" property="id" jdbcType="INTEGER" />
+    <result column="course_number" property="courseNumber" jdbcType="VARCHAR" />
+    <result column="course_name" property="courseName" jdbcType="VARCHAR" />
+    <result column="course_type" property="courseType" jdbcType="VARCHAR" />
+    <result column="course_credit" property="courseCredit" jdbcType="REAL" />
+    <result column="course_property" property="courseProperty" jdbcType="VARCHAR" />
+    <result column="academy" property="academy" jdbcType="VARCHAR" />
+    <result column="theory_period" property="theoryPeriod" jdbcType="INTEGER" />
+    <result column="profession" property="profession" jdbcType="VARCHAR" />
+    <result column="teacher" property="teacher" jdbcType="VARCHAR" />
+    <result column="classroom" property="classroom" jdbcType="VARCHAR" />
+    <result column="classes" property="classes" jdbcType="VARCHAR" />
+    <result column="course_content" property="courseContent" jdbcType="VARCHAR" />
+    <result column="supervision_time" property="supervisionTime" jdbcType="VARCHAR" />
+    <result column="teaching_attitude_score" property="teachingAttitudeScore" jdbcType="VARCHAR" />
+    <result column="teaching_content_score" property="teachingContentScore" jdbcType="VARCHAR" />
+    <result column="teaching_method_score" property="teachingMethodScore" jdbcType="VARCHAR" />
+    <result column="teaching_effect_score" property="teachingEffectScore" jdbcType="VARCHAR" />
+    <result column="lesson_total_score" property="lessonTotalScore" jdbcType="REAL" />
+    <result column="student_should_num" property="studentShouldNum" jdbcType="INTEGER" />
+    <result column="student_really_num" property="studentReallyNum" jdbcType="INTEGER" />
+    <result column="late_student_num" property="lateStudentNum" jdbcType="INTEGER" />
+    <result column="real_rate" property="realRate" jdbcType="REAL" />
+    <result column="late_rate" property="lateRate" jdbcType="REAL" />
+    <result column="student_lesson_situation" property="studentLessonSituation" jdbcType="VARCHAR" />
+    <result column="student_status_score" property="studentStatusScore" jdbcType="VARCHAR" />
+    <result column="student_total_score" property="studentTotalScore" jdbcType="REAL" />
+    <result column="teaching_environment_content" property="teachingEnvironmentContent" jdbcType="VARCHAR" />
+    <result column="teaching_environment_score" property="teachingEnvironmentScore" jdbcType="VARCHAR" />
+    <result column="suggestion" property="suggestion" jdbcType="VARCHAR" />
+    <result column="supervisor_name" property="supervisorName" jdbcType="VARCHAR" />
+    <result column="course_level" property="courseLevel" jdbcType="INTEGER" />
+    <result column="createtime" property="createtime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <insert id="insert" parameterType="com.supervise.model.CourseRecord" >
+    insert into tb_course_record (id, course_number, course_name, 
+      course_type, course_credit, course_property, 
+      academy, theory_period, profession, 
+      teacher, classroom, classes, 
+      course_content, supervision_time, teaching_attitude_score, 
+      teaching_content_score, teaching_method_score, 
+      teaching_effect_score, lesson_total_score, student_should_num, 
+      student_really_num, late_student_num, real_rate, 
+      late_rate, student_lesson_situation, student_status_score, 
+      student_total_score, teaching_environment_content, 
+      teaching_environment_score, suggestion, supervisor_name, 
+      course_level, createtime)
+    values (#{id,jdbcType=INTEGER}, #{courseNumber,jdbcType=VARCHAR}, #{courseName,jdbcType=VARCHAR}, 
+      #{courseType,jdbcType=VARCHAR}, #{courseCredit,jdbcType=REAL}, #{courseProperty,jdbcType=VARCHAR}, 
+      #{academy,jdbcType=VARCHAR}, #{theoryPeriod,jdbcType=INTEGER}, #{profession,jdbcType=VARCHAR}, 
+      #{teacher,jdbcType=VARCHAR}, #{classroom,jdbcType=VARCHAR}, #{classes,jdbcType=VARCHAR}, 
+      #{courseContent,jdbcType=VARCHAR}, #{supervisionTime,jdbcType=VARCHAR}, #{teachingAttitudeScore,jdbcType=VARCHAR}, 
+      #{teachingContentScore,jdbcType=VARCHAR}, #{teachingMethodScore,jdbcType=VARCHAR}, 
+      #{teachingEffectScore,jdbcType=VARCHAR}, #{lessonTotalScore,jdbcType=REAL}, #{studentShouldNum,jdbcType=INTEGER}, 
+      #{studentReallyNum,jdbcType=INTEGER}, #{lateStudentNum,jdbcType=INTEGER}, #{realRate,jdbcType=REAL}, 
+      #{lateRate,jdbcType=REAL}, #{studentLessonSituation,jdbcType=VARCHAR}, #{studentStatusScore,jdbcType=VARCHAR}, 
+      #{studentTotalScore,jdbcType=REAL}, #{teachingEnvironmentContent,jdbcType=VARCHAR}, 
+      #{teachingEnvironmentScore,jdbcType=VARCHAR}, #{suggestion,jdbcType=VARCHAR}, #{supervisorName,jdbcType=VARCHAR}, 
+      #{courseLevel,jdbcType=INTEGER}, #{createtime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.supervise.model.CourseRecord" >
+    insert into tb_course_record
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="courseNumber != null" >
+        course_number,
+      </if>
+      <if test="courseName != null" >
+        course_name,
+      </if>
+      <if test="courseType != null" >
+        course_type,
+      </if>
+      <if test="courseCredit != null" >
+        course_credit,
+      </if>
+      <if test="courseProperty != null" >
+        course_property,
+      </if>
+      <if test="academy != null" >
+        academy,
+      </if>
+      <if test="theoryPeriod != null" >
+        theory_period,
+      </if>
+      <if test="profession != null" >
+        profession,
+      </if>
+      <if test="teacher != null" >
+        teacher,
+      </if>
+      <if test="classroom != null" >
+        classroom,
+      </if>
+      <if test="classes != null" >
+        classes,
+      </if>
+      <if test="courseContent != null" >
+        course_content,
+      </if>
+      <if test="supervisionTime != null" >
+        supervision_time,
+      </if>
+      <if test="teachingAttitudeScore != null" >
+        teaching_attitude_score,
+      </if>
+      <if test="teachingContentScore != null" >
+        teaching_content_score,
+      </if>
+      <if test="teachingMethodScore != null" >
+        teaching_method_score,
+      </if>
+      <if test="teachingEffectScore != null" >
+        teaching_effect_score,
+      </if>
+      <if test="lessonTotalScore != null" >
+        lesson_total_score,
+      </if>
+      <if test="studentShouldNum != null" >
+        student_should_num,
+      </if>
+      <if test="studentReallyNum != null" >
+        student_really_num,
+      </if>
+      <if test="lateStudentNum != null" >
+        late_student_num,
+      </if>
+      <if test="realRate != null" >
+        real_rate,
+      </if>
+      <if test="lateRate != null" >
+        late_rate,
+      </if>
+      <if test="studentLessonSituation != null" >
+        student_lesson_situation,
+      </if>
+      <if test="studentStatusScore != null" >
+        student_status_score,
+      </if>
+      <if test="studentTotalScore != null" >
+        student_total_score,
+      </if>
+      <if test="teachingEnvironmentContent != null" >
+        teaching_environment_content,
+      </if>
+      <if test="teachingEnvironmentScore != null" >
+        teaching_environment_score,
+      </if>
+      <if test="suggestion != null" >
+        suggestion,
+      </if>
+      <if test="supervisorName != null" >
+        supervisor_name,
+      </if>
+      <if test="courseLevel != null" >
+        course_level,
+      </if>
+      <if test="createtime != null" >
+        createtime,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="courseNumber != null" >
+        #{courseNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="courseName != null" >
+        #{courseName,jdbcType=VARCHAR},
+      </if>
+      <if test="courseType != null" >
+        #{courseType,jdbcType=VARCHAR},
+      </if>
+      <if test="courseCredit != null" >
+        #{courseCredit,jdbcType=REAL},
+      </if>
+      <if test="courseProperty != null" >
+        #{courseProperty,jdbcType=VARCHAR},
+      </if>
+      <if test="academy != null" >
+        #{academy,jdbcType=VARCHAR},
+      </if>
+      <if test="theoryPeriod != null" >
+        #{theoryPeriod,jdbcType=INTEGER},
+      </if>
+      <if test="profession != null" >
+        #{profession,jdbcType=VARCHAR},
+      </if>
+      <if test="teacher != null" >
+        #{teacher,jdbcType=VARCHAR},
+      </if>
+      <if test="classroom != null" >
+        #{classroom,jdbcType=VARCHAR},
+      </if>
+      <if test="classes != null" >
+        #{classes,jdbcType=VARCHAR},
+      </if>
+      <if test="courseContent != null" >
+        #{courseContent,jdbcType=VARCHAR},
+      </if>
+      <if test="supervisionTime != null" >
+        #{supervisionTime,jdbcType=VARCHAR},
+      </if>
+      <if test="teachingAttitudeScore != null" >
+        #{teachingAttitudeScore,jdbcType=VARCHAR},
+      </if>
+      <if test="teachingContentScore != null" >
+        #{teachingContentScore,jdbcType=VARCHAR},
+      </if>
+      <if test="teachingMethodScore != null" >
+        #{teachingMethodScore,jdbcType=VARCHAR},
+      </if>
+      <if test="teachingEffectScore != null" >
+        #{teachingEffectScore,jdbcType=VARCHAR},
+      </if>
+      <if test="lessonTotalScore != null" >
+        #{lessonTotalScore,jdbcType=REAL},
+      </if>
+      <if test="studentShouldNum != null" >
+        #{studentShouldNum,jdbcType=INTEGER},
+      </if>
+      <if test="studentReallyNum != null" >
+        #{studentReallyNum,jdbcType=INTEGER},
+      </if>
+      <if test="lateStudentNum != null" >
+        #{lateStudentNum,jdbcType=INTEGER},
+      </if>
+      <if test="realRate != null" >
+        #{realRate,jdbcType=REAL},
+      </if>
+      <if test="lateRate != null" >
+        #{lateRate,jdbcType=REAL},
+      </if>
+      <if test="studentLessonSituation != null" >
+        #{studentLessonSituation,jdbcType=VARCHAR},
+      </if>
+      <if test="studentStatusScore != null" >
+        #{studentStatusScore,jdbcType=VARCHAR},
+      </if>
+      <if test="studentTotalScore != null" >
+        #{studentTotalScore,jdbcType=REAL},
+      </if>
+      <if test="teachingEnvironmentContent != null" >
+        #{teachingEnvironmentContent,jdbcType=VARCHAR},
+      </if>
+      <if test="teachingEnvironmentScore != null" >
+        #{teachingEnvironmentScore,jdbcType=VARCHAR},
+      </if>
+      <if test="suggestion != null" >
+        #{suggestion,jdbcType=VARCHAR},
+      </if>
+      <if test="supervisorName != null" >
+        #{supervisorName,jdbcType=VARCHAR},
+      </if>
+      <if test="courseLevel != null" >
+        #{courseLevel,jdbcType=INTEGER},
+      </if>
+      <if test="createtime != null" >
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+</mapper>

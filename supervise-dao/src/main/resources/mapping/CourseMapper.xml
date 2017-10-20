@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.supervise.dao.CourseMapper" >
+  <resultMap id="BaseResultMap" type="com.supervise.model.Course" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="grade" property="grade" jdbcType="VARCHAR" />
+    <result column="course_number" property="courseNumber" jdbcType="VARCHAR" />
+    <result column="course_name" property="courseName" jdbcType="VARCHAR" />
+    <result column="course_property" property="courseProperty" jdbcType="VARCHAR" />
+    <result column="credit" property="credit" jdbcType="REAL" />
+    <result column="theory_period" property="theoryPeriod" jdbcType="INTEGER" />
+    <result column="experiment_period" property="experimentPeriod" jdbcType="INTEGER" />
+    <result column="classes" property="classes" jdbcType="VARCHAR" />
+    <result column="time_address" property="timeAddress" jdbcType="VARCHAR" />
+    <result column="profession_name" property="professionName" jdbcType="VARCHAR" />
+    <result column="teacher" property="teacher" jdbcType="VARCHAR" />
+    <result column="student_number" property="studentNumber" jdbcType="INTEGER" />
+    <result column="academy" property="academy" jdbcType="VARCHAR" />
+    <result column="academy_number" property="academyNumber" jdbcType="INTEGER" />
+    <result column="course_type" property="courseType" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, grade, course_number, course_name, course_property, credit, theory_period, experiment_period, 
+    classes, time_address, profession_name, teacher, student_number, academy, academy_number, 
+    course_type
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from tb_course
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from tb_course
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.supervise.model.Course" >
+    insert into tb_course (id, grade, course_number, 
+      course_name, course_property, credit, 
+      theory_period, experiment_period, classes, 
+      time_address, profession_name, teacher, 
+      student_number, academy, academy_number, 
+      course_type)
+    values (#{id,jdbcType=INTEGER}, #{grade,jdbcType=VARCHAR}, #{courseNumber,jdbcType=VARCHAR}, 
+      #{courseName,jdbcType=VARCHAR}, #{courseProperty,jdbcType=VARCHAR}, #{credit,jdbcType=REAL}, 
+      #{theoryPeriod,jdbcType=INTEGER}, #{experimentPeriod,jdbcType=INTEGER}, #{classes,jdbcType=VARCHAR}, 
+      #{timeAddress,jdbcType=VARCHAR}, #{professionName,jdbcType=VARCHAR}, #{teacher,jdbcType=VARCHAR}, 
+      #{studentNumber,jdbcType=INTEGER}, #{academy,jdbcType=VARCHAR}, #{academyNumber,jdbcType=INTEGER}, 
+      #{courseType,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.supervise.model.Course" >
+    insert into tb_course
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="grade != null" >
+        grade,
+      </if>
+      <if test="courseNumber != null" >
+        course_number,
+      </if>
+      <if test="courseName != null" >
+        course_name,
+      </if>
+      <if test="courseProperty != null" >
+        course_property,
+      </if>
+      <if test="credit != null" >
+        credit,
+      </if>
+      <if test="theoryPeriod != null" >
+        theory_period,
+      </if>
+      <if test="experimentPeriod != null" >
+        experiment_period,
+      </if>
+      <if test="classes != null" >
+        classes,
+      </if>
+      <if test="timeAddress != null" >
+        time_address,
+      </if>
+      <if test="professionName != null" >
+        profession_name,
+      </if>
+      <if test="teacher != null" >
+        teacher,
+      </if>
+      <if test="studentNumber != null" >
+        student_number,
+      </if>
+      <if test="academy != null" >
+        academy,
+      </if>
+      <if test="academyNumber != null" >
+        academy_number,
+      </if>
+      <if test="courseType != null" >
+        course_type,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="grade != null" >
+        #{grade,jdbcType=VARCHAR},
+      </if>
+      <if test="courseNumber != null" >
+        #{courseNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="courseName != null" >
+        #{courseName,jdbcType=VARCHAR},
+      </if>
+      <if test="courseProperty != null" >
+        #{courseProperty,jdbcType=VARCHAR},
+      </if>
+      <if test="credit != null" >
+        #{credit,jdbcType=REAL},
+      </if>
+      <if test="theoryPeriod != null" >
+        #{theoryPeriod,jdbcType=INTEGER},
+      </if>
+      <if test="experimentPeriod != null" >
+        #{experimentPeriod,jdbcType=INTEGER},
+      </if>
+      <if test="classes != null" >
+        #{classes,jdbcType=VARCHAR},
+      </if>
+      <if test="timeAddress != null" >
+        #{timeAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="professionName != null" >
+        #{professionName,jdbcType=VARCHAR},
+      </if>
+      <if test="teacher != null" >
+        #{teacher,jdbcType=VARCHAR},
+      </if>
+      <if test="studentNumber != null" >
+        #{studentNumber,jdbcType=INTEGER},
+      </if>
+      <if test="academy != null" >
+        #{academy,jdbcType=VARCHAR},
+      </if>
+      <if test="academyNumber != null" >
+        #{academyNumber,jdbcType=INTEGER},
+      </if>
+      <if test="courseType != null" >
+        #{courseType,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.supervise.model.Course" >
+    update tb_course
+    <set >
+      <if test="grade != null" >
+        grade = #{grade,jdbcType=VARCHAR},
+      </if>
+      <if test="courseNumber != null" >
+        course_number = #{courseNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="courseName != null" >
+        course_name = #{courseName,jdbcType=VARCHAR},
+      </if>
+      <if test="courseProperty != null" >
+        course_property = #{courseProperty,jdbcType=VARCHAR},
+      </if>
+      <if test="credit != null" >
+        credit = #{credit,jdbcType=REAL},
+      </if>
+      <if test="theoryPeriod != null" >
+        theory_period = #{theoryPeriod,jdbcType=INTEGER},
+      </if>
+      <if test="experimentPeriod != null" >
+        experiment_period = #{experimentPeriod,jdbcType=INTEGER},
+      </if>
+      <if test="classes != null" >
+        classes = #{classes,jdbcType=VARCHAR},
+      </if>
+      <if test="timeAddress != null" >
+        time_address = #{timeAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="professionName != null" >
+        profession_name = #{professionName,jdbcType=VARCHAR},
+      </if>
+      <if test="teacher != null" >
+        teacher = #{teacher,jdbcType=VARCHAR},
+      </if>
+      <if test="studentNumber != null" >
+        student_number = #{studentNumber,jdbcType=INTEGER},
+      </if>
+      <if test="academy != null" >
+        academy = #{academy,jdbcType=VARCHAR},
+      </if>
+      <if test="academyNumber != null" >
+        academy_number = #{academyNumber,jdbcType=INTEGER},
+      </if>
+      <if test="courseType != null" >
+        course_type = #{courseType,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.supervise.model.Course" >
+    update tb_course
+    set grade = #{grade,jdbcType=VARCHAR},
+      course_number = #{courseNumber,jdbcType=VARCHAR},
+      course_name = #{courseName,jdbcType=VARCHAR},
+      course_property = #{courseProperty,jdbcType=VARCHAR},
+      credit = #{credit,jdbcType=REAL},
+      theory_period = #{theoryPeriod,jdbcType=INTEGER},
+      experiment_period = #{experimentPeriod,jdbcType=INTEGER},
+      classes = #{classes,jdbcType=VARCHAR},
+      time_address = #{timeAddress,jdbcType=VARCHAR},
+      profession_name = #{professionName,jdbcType=VARCHAR},
+      teacher = #{teacher,jdbcType=VARCHAR},
+      student_number = #{studentNumber,jdbcType=INTEGER},
+      academy = #{academy,jdbcType=VARCHAR},
+      academy_number = #{academyNumber,jdbcType=INTEGER},
+      course_type = #{courseType,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

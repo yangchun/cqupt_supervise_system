@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="supervise-web:war">
+    <output-path>$PROJECT_DIR$/supervise-web/target</output-path>
+    <root id="archive" name="supervise-web.war">
+      <element id="artifact" artifact-name="supervise-web:war exploded" />
+    </root>
+  </artifact>
+</component>
