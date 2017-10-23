@@ -1,1 +1,6 @@
+com\supervise\model\CourseRecord.class
 com\supervise\api\UserService.class
+com\supervise\model\Role.class
+com\supervise\model\Course.class
+com\supervise\model\UserRole.class
+com\supervise\model\User.class

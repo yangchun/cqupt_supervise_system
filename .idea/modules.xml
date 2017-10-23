@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cqupt_supervise_system.iml" filepath="$PROJECT_DIR$/cqupt_supervise_system.iml" />
-      <module fileurl="file://$PROJECT_DIR$/supervise-api/supervise-api.iml" filepath="$PROJECT_DIR$/supervise-api/supervise-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/supervise-dao/supervise-dao.iml" filepath="$PROJECT_DIR$/supervise-dao/supervise-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/supervise-service/supervise-service.iml" filepath="$PROJECT_DIR$/supervise-service/supervise-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/supervise-web/supervise-web.iml" filepath="$PROJECT_DIR$/supervise-web/supervise-web.iml" />

@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="supervise-api" />
         <module name="supervise-dao" />
         <module name="supervise-service" />
         <module name="supervise-web" />
