@@ -179,7 +179,6 @@ public class CommonUtil {
         } catch (Exception e) {
             throw e;
         }
-
         return false;
     }
 
@@ -446,7 +445,6 @@ public class CommonUtil {
 
 //		dateFormater.parse(dateFormater.format(Long.parseLong(data.getTalkingStartTime())))
         return  dateFormater.parse(dateFormater.format(date));
-
     }
     /**
      *
