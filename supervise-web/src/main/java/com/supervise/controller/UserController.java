@@ -1,6 +1,8 @@
 package com.supervise.controller;
 
+import com.alibaba.fastjson.JSONObject;
 import com.supervise.api.UserService;
+import com.supervise.util.CommonUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -22,8 +24,9 @@ public class UserController {
 
     @RequestMapping("/getUserName")
     @ResponseBody
-    public String getUserName(){
-        return userService.getUserName(1);
+    public JSONObject getUserName(){
+        String name=userService.getUserName(1);
+        return CommonUtil.constructResponseJSON(1,"成功！",name);
     }
 
     @RequestMapping("/test")
