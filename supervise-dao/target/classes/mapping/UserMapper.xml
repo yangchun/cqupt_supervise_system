@@ -18,28 +18,28 @@
     <sql id="user_query_segment">
         <trim prefix="WHERE" prefixOverrides="AND|OR">
             <if test="id != null">
-                id= #{id,jdbcType=INTEGER}
+               AND id= #{id,jdbcType=INTEGER}
             </if>
             <if test="username != null">
-                username = #{username,jdbcType=VARCHAR}
+                AND username = #{username,jdbcType=VARCHAR}
             </if>
             <if test="password != null">
-                password = #{password,jdbcType=VARCHAR}
+                AND password = #{password,jdbcType=VARCHAR}
             </if>
             <if test="email != null">
-                email = #{email,jdbcType=VARCHAR}
+                AND  email = #{email,jdbcType=VARCHAR}
             </if>
             <if test="telephone != null">
-                telephone = #{telephone,jdbcType=VARCHAR}
+                AND telephone = #{telephone,jdbcType=VARCHAR}
             </if>
             <if test="jobtitle != null">
-                jobtitle = #{jobtitle,jdbcType=VARCHAR}
+                AND jobtitle = #{jobtitle,jdbcType=VARCHAR}
             </if>
             <if test="createtime != null">
-                createtime = #{createtime,jdbcType=TIMESTAMP}
+                AND createtime = #{createtime,jdbcType=TIMESTAMP}
             </if>
             <if test="status != null">
-                status = #{status,jdbcType=INTEGER}
+                AND status = #{status,jdbcType=INTEGER}
             </if>
         </trim>
     </sql>

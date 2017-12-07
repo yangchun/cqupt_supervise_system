@@ -2,43 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a80e98d-d8c8-426d-b9c2-44a355c8530f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervise-service/src/main/java/com/supervise/util/MD5.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/CORSFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/JwtFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/SystemCode.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cqupt_supervise_system_supervise_api_1_0_SNAPSHOT.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-api/target/classes/com/supervise/api/UserService.class" afterPath="$PROJECT_DIR$/supervise-api/target/classes/com/supervise/api/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-api/target/supervise-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/supervise-api/target/supervise-api-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-dao/target/classes/com/supervise/dao/UserMapper.class" afterPath="$PROJECT_DIR$/supervise-dao/target/classes/com/supervise/dao/UserMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-service/target/classes/com/supervise/service/UserServiceImpl.class" afterPath="$PROJECT_DIR$/supervise-service/target/classes/com/supervise/service/UserServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/classes/com/supervise/controller/UserController.class" afterPath="$PROJECT_DIR$/supervise-web/target/classes/com/supervise/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/classes/com/supervise/filter/CORSFilter.class" afterPath="$PROJECT_DIR$/supervise-web/target/classes/com/supervise/filter/CORSFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/classes/com/supervise/filter/JwtFilter.class" afterPath="$PROJECT_DIR$/supervise-web/target/classes/com/supervise/filter/JwtFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/classes/com/supervise/util/SystemCode.class" afterPath="$PROJECT_DIR$/supervise-web/target/classes/com/supervise/util/SystemCode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web.war" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/classes/com/supervise/controller/UserController.class" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/classes/com/supervise/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/lib/supervise-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/lib/supervise-api-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/classes/com/supervise/filter/CORSFilter.class" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/classes/com/supervise/filter/CORSFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/classes/com/supervise/filter/JwtFilter.class" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/classes/com/supervise/filter/JwtFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/classes/com/supervise/util/SystemCode.class" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/classes/com/supervise/util/SystemCode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/lib/supervise-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/lib/supervise-dao-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/lib/supervise-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/lib/supervise-service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/supervise_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/supervise_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-api/src/main/java/com/supervise/api/UserService.java" afterPath="$PROJECT_DIR$/supervise-api/src/main/java/com/supervise/api/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/supervise-api/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-dao/pom.xml" afterPath="$PROJECT_DIR$/supervise-dao/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-dao/src/main/java/com/supervise/dao/UserMapper.java" afterPath="$PROJECT_DIR$/supervise-dao/src/main/java/com/supervise/dao/UserMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-dao/src/main/java/com/supervise/dao/UserRoleMapper.java" afterPath="$PROJECT_DIR$/supervise-dao/src/main/java/com/supervise/dao/UserRoleMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/UserMapper.xml" afterPath="$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-dao/supervise-dao.iml" afterPath="$PROJECT_DIR$/supervise-dao/supervise-dao.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-dao/target/classes/mapping/UserMapper.xml" afterPath="$PROJECT_DIR$/supervise-dao/target/classes/mapping/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-service/src/main/java/com/supervise/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/supervise-service/src/main/java/com/supervise/service/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-service/supervise-service.iml" afterPath="$PROJECT_DIR$/supervise-service/supervise-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/pom.xml" afterPath="$PROJECT_DIR$/supervise-web/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/controller/UserController.java" afterPath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/interceptor/LoginHandlerIntercepter.java" afterPath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/interceptor/LoginHandlerIntercepter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/src/main/resources/spring-mvc.xml" afterPath="$PROJECT_DIR$/supervise-web/src/main/resources/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/supervise-web/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/supervise-web.iml" afterPath="$PROJECT_DIR$/supervise-web/supervise-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/supervise-web/target/classes/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/classes/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/CORSFilter.java" afterPath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/CORSFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/JwtFilter.java" afterPath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/JwtFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/SystemCode.java" afterPath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/SystemCode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/supervise-web/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/index.jsp" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,22 +37,79 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+            <state relative-caret-position="45">
+              <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginHandlerIntercepter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/interceptor/LoginHandlerIntercepter.java">
+      <file leaf-file-name="RoleMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/RoleMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-494">
+              <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+              <folding>
+                <marker date="1512642241140" expanded="true" signature="2134:2247" ph="select from tb_user" />
+                <marker date="1512642241140" expanded="true" signature="2337:2394" ph="delete from " />
+                <marker date="1512642241140" expanded="true" signature="2477:2843" ph="insert into tb_user... " />
+                <marker date="1512642241140" expanded="true" signature="4711:5604" ph="update tb_us... " />
+                <marker date="1512642241140" expanded="true" signature="5701:6081" ph="update tb_us... " />
+                <marker date="1512642241140" expanded="true" signature="6195:6266" ph="select from tb_user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SystemCode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/SystemCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/CommonUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supervise-api/src/main/java/com/supervise/api/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supervise-service/src/main/java/com/supervise/service/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="41" column="41" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -79,8 +118,18 @@
       <file leaf-file-name="CORSFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/CORSFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="60" />
+            <state relative-caret-position="208">
+              <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JwtFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/JwtFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="45" column="60" lean-forward="true" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -108,10 +157,10 @@
       <find>D</find>
       <find>query</find>
       <find>getUserByUserNameAndPwd</find>
-      <find>user_query_segment</find>
       <find>object</find>
-      <find>getCookies</find>
       <find>isLogin</find>
+      <find>user_query_segment</find>
+      <find>getCookies</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Idea-workspace\cqupt_supervise_system\supervise-service</dir>
@@ -145,25 +194,26 @@
         <option value="$PROJECT_DIR$/supervise-dao/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/supervise-dao/pom.xml" />
         <option value="$PROJECT_DIR$/supervise-dao/src/main/java/com/supervise/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/UserMapper.xml" />
         <option value="$PROJECT_DIR$/supervise-dao/src/main/java/com/supervise/dao/UserRoleMapper.java" />
         <option value="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/JsonpResult.java" />
-        <option value="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/SystemCode.java" />
         <option value="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/JSONPResult.java" />
         <option value="$PROJECT_DIR$/supervise-web/src/main/webapp/test.html" />
         <option value="$PROJECT_DIR$/supervise-web/src/main/webapp/test.jsp" />
         <option value="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/ResponseFilter.java" />
         <option value="$PROJECT_DIR$/supervise-web/pom.xml" />
-        <option value="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/JwtFilter.java" />
-        <option value="$PROJECT_DIR$/supervise-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/CORSFilter.java" />
         <option value="$PROJECT_DIR$/supervise-service/src/test/java/com/test/IUserService.java" />
         <option value="$PROJECT_DIR$/supervise-service/src/test/java/com/test/MethodProxy.java" />
         <option value="$PROJECT_DIR$/supervise-service/src/test/java/com/test/Test.java" />
         <option value="$PROJECT_DIR$/supervise-web/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/supervise-api/src/main/java/com/supervise/api/UserService.java" />
         <option value="$PROJECT_DIR$/supervise-service/src/main/java/com/supervise/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/supervise-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/JwtFilter.java" />
+        <option value="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/SystemCode.java" />
+        <option value="$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/UserMapper.xml" />
         <option value="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/CORSFilter.java" />
+        <option value="$PROJECT_DIR$/supervise-web/src/main/webapp/index.jsp" />
       </list>
     </option>
   </component>
@@ -181,10 +231,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -201,9 +251,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -251,6 +300,36 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cqupt_supervise_system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cqupt_supervise_system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supervise-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -279,6 +358,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="supervise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -586,126 +669,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cqupt_supervise_system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cqupt_supervise_system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supervise-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cqupt_supervise_system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cqupt_supervise_system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supervise-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cqupt_supervise_system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cqupt_supervise_system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supervise-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cqupt_supervise_system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cqupt_supervise_system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supervise-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supervise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cqupt_supervise_system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cqupt_supervise_system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supervise-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supervise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -715,7 +681,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SSM_02" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -723,11 +689,11 @@
       <recent name="com.test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idea-workspace\cqupt_supervise_system\supervise-web\src\main\webapp\js" />
       <recent name="D:\Idea-workspace\cqupt_supervise_system\supervise-dao\src\main\resources\mapping" />
       <recent name="D:\Idea-workspace\cqupt_supervise_system\supervise-api\src\main\java\com\supervise\model" />
       <recent name="D:\Idea-workspace\cqupt_supervise_system\supervise-api\src\main\java" />
       <recent name="D:\Idea-workspace\cqupt_supervise_system\supervise-web\src\main\resources" />
-      <recent name="D:\Idea-workspace\cqupt_supervise_system\supervise-dao\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1316,6 +1282,7 @@
       <workItem from="1511258889387" duration="2393000" />
       <workItem from="1511313118051" duration="7421000" />
       <workItem from="1511757147040" duration="2190000" />
+      <workItem from="1512615233996" duration="17886000" />
     </task>
     <servers />
   </component>
@@ -1331,7 +1298,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88129000" />
+    <option name="totallyTimeSpent" value="106015000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1343,7 +1310,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1366,10 +1333,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40245774" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06873977" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31288344" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25037822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27155825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1435,9 +1402,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/supervise-api/src/main/java/model/Course.java" />
-    <entry file="file://$PROJECT_DIR$/supervise-api/src/main/java/model/CourseRecord.java" />
-    <entry file="file://$PROJECT_DIR$/supervise-api/src/main/java/model/User.java" />
     <entry file="file://$PROJECT_DIR$/supervise-api/src/main/java/com/supervise/model/UserRole.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1518,13 +1482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/RoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supervise-dao/src/test/java/Test.java" />
     <entry file="file://$PROJECT_DIR$/supervise-dao/src/main/java/com/supervise/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1537,13 +1494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-409">
-          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1578,20 +1528,6 @@
     <entry file="file://$PROJECT_DIR$/supervise-web/src/main/webapp/test.html" />
     <entry file="file://$PROJECT_DIR$/supervise-web/src/main/webapp/test.jsp" />
     <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/JSONPResult.java" />
-    <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/SystemCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supervise-web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/ServletResponse.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-528">
@@ -1603,28 +1539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="910">
           <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/CommonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supervise-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1378">
-          <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/JwtFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1662,20 +1576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/supervise-api/src/main/java/com/supervise/api/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supervise-service/src/main/java/com/supervise/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.2.0.RELEASE/spring-tx-4.2.0.RELEASE.jar!/org/springframework/transaction/support/TransactionSynchronizationManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1698,26 +1598,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/supervise-web/src/main/webapp/js/jquery-2.1.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.6.0/jjwt-0.6.0.jar!/io/jsonwebtoken/impl/DefaultJwtParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="409" column="23" lean-forward="false" selection-start-line="409" selection-start-column="23" selection-end-line="409" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.6.0/jjwt-0.6.0.jar!/io/jsonwebtoken/JwtParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/interceptor/LoginHandlerIntercepter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="416">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervise-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/CommonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervise-api/src/main/java/com/supervise/api/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervise-service/src/main/java/com/supervise/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="41" column="41" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/SystemCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/JwtFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="45" column="60" lean-forward="true" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/CORSFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="60" />
+        <state relative-caret-position="208">
+          <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494">
+          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding>
+            <marker date="1512642241140" expanded="true" signature="2134:2247" ph="select from tb_user" />
+            <marker date="1512642241140" expanded="true" signature="2337:2394" ph="delete from " />
+            <marker date="1512642241140" expanded="true" signature="2477:2843" ph="insert into tb_user... " />
+            <marker date="1512642241140" expanded="true" signature="4711:5604" ph="update tb_us... " />
+            <marker date="1512642241140" expanded="true" signature="5701:6081" ph="update tb_us... " />
+            <marker date="1512642241140" expanded="true" signature="6195:6266" ph="select from tb_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervise-web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+        <state relative-caret-position="45">
+          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding />
         </state>
       </provider>

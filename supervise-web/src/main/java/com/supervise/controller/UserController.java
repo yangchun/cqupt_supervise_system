@@ -1,5 +1,6 @@
 package com.supervise.controller;
 
+import com.alibaba.druid.util.StringUtils;
 import com.alibaba.fastjson.JSONObject;
 import com.supervise.api.UserService;
 import com.supervise.model.User;
@@ -25,6 +26,8 @@ import java.util.Random;
 @Controller
 @RequestMapping("/userController")
 public class UserController {
+
+
     @Autowired
     private UserService userService;
 
@@ -35,28 +38,6 @@ public class UserController {
         String name=userService.getUserName(1);
         JSONObject obj=CommonUtil.constructResponseJSON(1,"成功！",name);
         return obj;
-    }
-
-    @RequestMapping("/test")
-    public void getTest(HttpServletRequest request,HttpServletResponse response){
-        String userName=request.getParameter("username");
-        String passWord=request.getParameter("password");
-        System.out.println(userName+" = "+passWord);
-        User u=new User();
-        u.setUsername(userName);
-        u.setPassword(passWord);
-        //1.创建Cookie对象
-        String token="yangchun"+String.valueOf(new Random().nextInt());
-        Cookie cookie = new Cookie("userId",token);
-        //2.设置Cookie参数
-        //2.1.设置Cookie的有效路径
-        cookie.setPath("/");//默认就是web项目的地址
-        //2.2.设置Cookie的有效时间
-        cookie.setMaxAge(2000);//该cookie只存活20秒，从最后不调该cookie开始计算
-        cookie.setMaxAge(-1);//该cookie保存在浏览器内存中，关闭浏览器则销毁该cookie
-        cookie.setMaxAge(0);//删除根该cookie同名的cookie
-        response.addHeader("token","11111111111111111");
-        response.addCookie(cookie);
     }
 
     @RequestMapping("/getCookies")
@@ -80,13 +61,24 @@ public class UserController {
     @RequestMapping("/login")
     @ResponseBody
     public  JSONObject login(HttpServletResponse res,String userName,String passWord){
-        System.out.println("userName="+userName+"======"+passWord);
+        if(StringUtils.isEmpty(userName)||StringUtils.isEmpty(passWord)){
+            return CommonUtil.constructResponse(SystemCode._USER_LOGIN_ERROR.code,SystemCode._USER_LOGIN_ERROR.desc,null);
+        }
+        User user=userService.isLogin(userName,passWord);
+        if(user==null){
+            return CommonUtil.constructResponse(SystemCode._USER_LOGIN_ERROR.code,SystemCode._USER_LOGIN_ERROR.desc,null);
+        }
         String token = "";
-        token = Jwts.builder().setSubject(userName).claim("roles", "user").setIssuedAt(new Date())
+        token = Jwts.builder().setId(String.valueOf(user.getId())).setSubject(user.getUsername()).claim("roles", "user").setIssuedAt(new Date())
                 .signWith(SignatureAlgorithm.HS256, "base64EncodedSecretKey").compact();
         JSONObject jo=new JSONObject();
         jo.put("token",token);
-        res.addHeader("Authorization",token);
+        Cookie cookie = new Cookie("token",token);
+        cookie.setPath("/");//默认就是web项目的地址
+        //2.2.设置Cookie的有效时间
+        cookie.setMaxAge(3000);
+        res.addCookie(cookie);
+
         return CommonUtil.constructResponse(1,"成功！",jo);
     }
 

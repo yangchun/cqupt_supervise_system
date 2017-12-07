@@ -8,6 +8,7 @@ import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -18,19 +19,25 @@ import java.io.IOException;
 public class JwtFilter extends GenericFilterBean {
     @Override
     public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
-        System.out.println("拦截token开始");
         HttpServletRequest request = (HttpServletRequest) req;
         HttpServletResponse response = (HttpServletResponse) res;
-        String authHeader = request.getHeader("Authorization");
+        String authHeader=null;
+        Cookie[] cookies= request.getCookies();
+        for(Cookie c:cookies){
+            if(c.getName().equals("token")){
+                System.out.println(c.getValue());
+                authHeader=c.getValue();
+            }
+        }
         if ("OPTIONS".equals(request.getMethod())) {
             response.setStatus(HttpServletResponse.SC_OK);
             chain.doFilter(req, res);
         }else{
-            if (authHeader == null || !authHeader.startsWith("Bearer ")) {
+            if (authHeader == null) {
                 throw new ServletException("不合法的Authorization header");
             }
             // 取得token
-            String token = authHeader.substring(7);
+            String token = authHeader;
             System.out.println("token="+token);
             try {
                 Claims claims = Jwts.parser().setSigningKey("base64EncodedSecretKey").parseClaimsJws(token).getBody();
