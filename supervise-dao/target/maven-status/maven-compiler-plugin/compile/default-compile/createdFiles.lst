@@ -1,0 +1,10 @@
+com\supervise\dao\UserRoleMapper.class
+com\supervise\dao\CourseMapper.class
+com\supervise\dao\UserMapper.class
+com\supervise\model\CourseRecord.class
+com\supervise\model\Course.class
+com\supervise\model\UserRole.class
+com\supervise\dao\RoleMapper.class
+com\supervise\model\User.class
+com\supervise\dao\CourseRecordMapper.class
+com\supervise\model\Role.class
