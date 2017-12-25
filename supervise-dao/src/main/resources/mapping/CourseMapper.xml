@@ -240,6 +240,9 @@
       <if test="course.courseName != null">
         AND course_name = #{course.courseName,jdbcType=VARCHAR}
       </if>
+      <if test="course.courseType != null">
+        AND course_type = #{course.courseType,jdbcType=VARCHAR}
+      </if>
     </trim>
   </sql>
 

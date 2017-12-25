@@ -2,46 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a80e98d-d8c8-426d-b9c2-44a355c8530f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervise-api/src/main/java/com/supervise/api/CourseService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervise-dao/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervise-dao/src/main/resources/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervise-service/src/main/java/com/supervise/service/CourseServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/controller/CourseController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/StringUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/SystemConfig.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/lib/jackson-annotations-2.6.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/lib/jackson-databind-2.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/js/jquery-2.1.1.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-api/target/supervise-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/supervise-api/target/supervise-api-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-dao/target/classes/com/supervise/dao/CourseMapper.class" afterPath="$PROJECT_DIR$/supervise-dao/target/classes/com/supervise/dao/CourseMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/classes/com/supervise/filter/CORSFilter.class" afterPath="$PROJECT_DIR$/supervise-web/target/classes/com/supervise/filter/CORSFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/classes/com/supervise/util/SystemCode.class" afterPath="$PROJECT_DIR$/supervise-web/target/classes/com/supervise/util/SystemCode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web.war" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/classes/com/supervise/filter/CORSFilter.class" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/classes/com/supervise/filter/CORSFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/classes/com/supervise/util/SystemCode.class" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/classes/com/supervise/util/SystemCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/lib/supervise-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/lib/supervise-api-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/lib/supervise-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/lib/supervise-dao-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/lib/supervise-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/WEB-INF/lib/supervise-service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/supervise_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/supervise_web_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/supervise-api/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/supervise-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/supervise-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-dao/pom.xml" afterPath="$PROJECT_DIR$/supervise-dao/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-dao/src/main/java/com/supervise/dao/CourseMapper.java" afterPath="$PROJECT_DIR$/supervise-dao/src/main/java/com/supervise/dao/CourseMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/CourseMapper.xml" afterPath="$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/CourseMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-dao/src/main/resources/spring-mybatis.xml" afterPath="$PROJECT_DIR$/supervise-dao/src/main/resources/spring-mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-dao/supervise-dao.iml" afterPath="$PROJECT_DIR$/supervise-dao/supervise-dao.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-dao/target/classes/mapping/CourseMapper.xml" afterPath="$PROJECT_DIR$/supervise-dao/target/classes/mapping/CourseMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-dao/target/classes/spring-mybatis.xml" afterPath="$PROJECT_DIR$/supervise-dao/target/classes/spring-mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-service/supervise-service.iml" afterPath="$PROJECT_DIR$/supervise-service/supervise-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/pom.xml" afterPath="$PROJECT_DIR$/supervise-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/controller/UserController.java" afterPath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/CORSFilter.java" afterPath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/filter/CORSFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/SystemCode.java" afterPath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/SystemCode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/supervise-web.iml" afterPath="$PROJECT_DIR$/supervise-web/supervise-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/target/supervise-web/index.jsp" afterPath="$PROJECT_DIR$/supervise-web/target/supervise-web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/controller/CourseController.java" afterPath="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/controller/CourseController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,8 +26,8 @@
       <file leaf-file-name="CourseController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/controller/CourseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+            <state relative-caret-position="338">
+              <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -74,7 +38,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="858">
               <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Course.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/supervise-dao/src/main/java/com/supervise/model/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="250">
+              <caret line="139" column="18" lean-forward="false" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -112,18 +78,18 @@
       <file leaf-file-name="CourseService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/supervise-api/src/main/java/com/supervise/api/CourseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="234">
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseServiceImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CourseServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/supervise-service/src/main/java/com/supervise/service/CourseServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="182">
+              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -132,28 +98,30 @@
       <file leaf-file-name="CourseMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/CourseMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6526">
-              <caret line="251" column="31" lean-forward="false" selection-start-line="251" selection-start-column="31" selection-end-line="251" selection-end-column="31" />
+            <state relative-caret-position="-1768">
+              <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
               <folding>
-                <marker date="1513326284507" expanded="true" signature="1856:1961" ph="select from tb_course" />
-                <marker date="1513326284507" expanded="true" signature="2048:2107" ph="delete from " />
-                <marker date="1513326284507" expanded="true" signature="2191:3004" ph="insert into tb_course... " />
-                <marker date="1513326284507" expanded="true" signature="5925:7574" ph="update tb_co... " />
-                <marker date="1513326284507" expanded="true" signature="7670:8511" ph="update tb_co... " />
-                <marker date="1513326284507" expanded="true" signature="9246:9305" ph="select from tb_user" />
-                <marker date="1513326284507" expanded="true" signature="9246:9311" ph="select from tb_course" />
-                <marker date="1513326284507" expanded="true" signature="9246:9448" ph="select from tb_user" />
+                <marker date="1514191432348" expanded="true" signature="1856:1961" ph="select from tb_course" />
+                <marker date="1514191432348" expanded="true" signature="2048:2107" ph="delete from " />
+                <marker date="1514191432348" expanded="true" signature="2191:3004" ph="insert into tb_course... " />
+                <marker date="1514191432348" expanded="true" signature="5925:7574" ph="update tb_co... " />
+                <marker date="1514191432348" expanded="true" signature="7670:8511" ph="update tb_co... " />
+                <marker date="1514191432348" expanded="true" signature="9366:9425" ph="select from tb_user" />
+                <marker date="1514191432348" expanded="true" signature="9366:9431" ph="select from tb_course" />
+                <marker date="1514191432348" expanded="true" signature="9366:9568" ph="select from tb_user" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/supervise-web/src/main/resources/spring-mvc.xml">
+      <file leaf-file-name="CourseRecordMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/CourseRecordMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="962">
-              <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="1802">
+              <caret line="265" column="41" lean-forward="true" selection-start-line="265" selection-start-column="41" selection-end-line="265" selection-end-column="41" />
+              <folding>
+                <marker date="1508417690687" expanded="true" signature="3145:5055" ph="insert into tb_course_record... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,12 +160,12 @@
       <find>object</find>
       <find>isLogin</find>
       <find>getCookies</find>
-      <find>query</find>
       <find>user_query_segment</find>
       <find>grade</find>
       <find>Base_Column_List</find>
       <find>id</find>
       <find>con</find>
+      <find>query</find>
       <find>course_query_segment</find>
     </findStrings>
     <dirStrings>
@@ -254,13 +222,13 @@
         <option value="$PROJECT_DIR$/supervise-dao/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/supervise-web/pom.xml" />
         <option value="$PROJECT_DIR$/supervise-web/src/main/resources/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/CourseMapper.xml" />
         <option value="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/StringUtil.java" />
         <option value="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/SystemConfig.java" />
         <option value="$PROJECT_DIR$/supervise-api/src/main/java/com/supervise/api/CourseService.java" />
         <option value="$PROJECT_DIR$/supervise-service/src/main/java/com/supervise/service/CourseServiceImpl.java" />
         <option value="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/util/SystemCode.java" />
         <option value="$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/controller/CourseController.java" />
+        <option value="$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/CourseMapper.xml" />
       </list>
     </option>
   </component>
@@ -280,7 +248,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -299,7 +267,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -786,7 +754,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1405,7 +1373,9 @@
       <workItem from="1513214091824" duration="12515000" />
       <workItem from="1513301392327" duration="15485000" />
       <workItem from="1513342262058" duration="1478000" />
-      <workItem from="1513388086729" duration="2152000" />
+      <workItem from="1513388086729" duration="2268000" />
+      <workItem from="1513646571925" duration="139000" />
+      <workItem from="1514189516175" duration="3904000" />
     </task>
     <servers />
   </component>
@@ -1421,7 +1391,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143362000" />
+    <option name="totallyTimeSpent" value="147521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1433,7 +1403,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1452,13 +1423,13 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31260228" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7037643" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.055646483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31288344" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3207262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31260228" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21699545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1524,13 +1495,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/org/apache/velocity/app/Velocity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-729">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supervise-dao/src/test/java/Test.java" />
     <entry file="file://$PROJECT_DIR$/supervise-dao/src/main/java/com/supervise/dao/UserRoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1792,15 +1756,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supervise-api/src/main/java/com/supervise/api/CourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1812,43 +1770,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/supervise-service/src/main/java/com/supervise/service/CourseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/controller/CourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supervise-api/src/main/java/com/supervise/model/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/CourseMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6526">
-          <caret line="251" column="31" lean-forward="false" selection-start-line="251" selection-start-column="31" selection-end-line="251" selection-end-column="31" />
-          <folding>
-            <marker date="1513326284507" expanded="true" signature="1856:1961" ph="select from tb_course" />
-            <marker date="1513326284507" expanded="true" signature="2048:2107" ph="delete from " />
-            <marker date="1513326284507" expanded="true" signature="2191:3004" ph="insert into tb_course... " />
-            <marker date="1513326284507" expanded="true" signature="5925:7574" ph="update tb_co... " />
-            <marker date="1513326284507" expanded="true" signature="7670:8511" ph="update tb_co... " />
-            <marker date="1513326284507" expanded="true" signature="9246:9305" ph="select from tb_user" />
-            <marker date="1513326284507" expanded="true" signature="9246:9311" ph="select from tb_course" />
-            <marker date="1513326284507" expanded="true" signature="9246:9448" ph="select from tb_user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1862,8 +1787,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/supervise-dao/src/main/java/com/supervise/model/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="250">
+          <caret line="139" column="18" lean-forward="false" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervise-web/src/main/java/com/supervise/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervise-api/src/main/java/com/supervise/api/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/CourseRecordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="265" column="41" lean-forward="true" selection-start-line="265" selection-start-column="41" selection-end-line="265" selection-end-column="41" />
+          <folding>
+            <marker date="1508417690687" expanded="true" signature="3145:5055" ph="insert into tb_course_record... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervise-dao/src/main/resources/mapping/CourseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1768">
+          <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+          <folding>
+            <marker date="1514191432348" expanded="true" signature="1856:1961" ph="select from tb_course" />
+            <marker date="1514191432348" expanded="true" signature="2048:2107" ph="delete from " />
+            <marker date="1514191432348" expanded="true" signature="2191:3004" ph="insert into tb_course... " />
+            <marker date="1514191432348" expanded="true" signature="5925:7574" ph="update tb_co... " />
+            <marker date="1514191432348" expanded="true" signature="7670:8511" ph="update tb_co... " />
+            <marker date="1514191432348" expanded="true" signature="9366:9425" ph="select from tb_user" />
+            <marker date="1514191432348" expanded="true" signature="9366:9431" ph="select from tb_course" />
+            <marker date="1514191432348" expanded="true" signature="9366:9568" ph="select from tb_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervise-service/src/main/java/com/supervise/service/CourseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding />
         </state>
       </provider>

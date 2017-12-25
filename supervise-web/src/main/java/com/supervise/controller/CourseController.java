@@ -38,6 +38,7 @@ public class CourseController {
         course.setTeacher(StringUtil.getLegalString(request.getParameter("teacher")));
         course.setCourseNumber(StringUtil.getLegalString((request.getParameter("courseNumber"))));
         course.setCourseName(StringUtil.getLegalString((request.getParameter("courseName"))));
+        course.setCourseType(StringUtil.getLegalString(request.getParameter("courseType")));
         int page=1;
         String pageStr=request.getParameter("page");
         if(pageStr!=null&&pageStr.trim().length()>0){
